@@ -28,7 +28,3 @@ def now_serving(array)
     puts next_customer
   end
 end
-
-
-
-  
