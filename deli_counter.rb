@@ -19,3 +19,16 @@ def take_a_number(array, name)
   line_length = array.length
   puts "Welcome, #{name}. You are number #{line_length} in line."
 end
+
+def now_serving(array)
+  if array.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    next_customer = array.shift
+    puts next_customer
+  end
+end
+
+
+
+  
